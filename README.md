@@ -14,4 +14,4 @@ Criação da interface do maior streaming de música do mundo em HTML, CSS & Jav
 
 ## LAYOUT
 - [Layout 1](https://www.figma.com/file/bmfeM0PomxJXgHPjjobiPp/Player_Kenzie_2021-09?node-id=33%3A61)
-- [Layout 2](figma.com/proto/bmfeM0PomxJXgHPjjobiPp/Player_Kenzie_2021-09?node-id=33%3A61&starting-point-node-id=33%3A61&scaling=scale-down)
+
