@@ -1,0 +1,142 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+<!-- Cabeçalho de configuração-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kenzify</title>
+
+    
+    <link  rel = " preconnect " href = " https://fonts.googleapis.com " >
+    <link  rel = " preconnect " href = " https://fonts.gstatic.com " crossorigin >
+    <link  href = " https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap " rel = " stylesheet " >
+
+    
+
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+</head>
+
+<!--Corpo da Pagina-->
+
+<body>
+
+    <!--Tag conteudo importante-->
+    <main>
+
+        <!--Menu de Opções-->
+        <aside class="sidebarMenuNavegacao">
+
+            <!--Logo-->
+            <img src="./src/img/logo.png" alt="Logo Kenziefy">
+
+            <!--Menu-->
+            <nav class="menuNavegacao">
+
+                <!--Lista de link-->
+                <ul class="listaLinks">
+
+                    <!--Item de Lista-->
+                    <li>
+                        <a href="https://kenzie.com.br/">
+                            <img src="./src/img/icone1.png" alt="Home">
+                            Home
+                        </a>
+                    </li>
+
+                    <!--Item de Lista-->
+                    <li>
+                        <a href="https://kenzie.com.br/">
+                            <img src="./src/img/icone2.png" alt="Browse">
+                            Browse
+                        </a>
+                    </li>
+
+                    <!--Item de Lista-->
+                    <li>
+                        <a href="https://kenzie.com.br/">
+                            <img src="./src/img/icone3.png" alt="Liked songs">
+                            Liked songs
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </aside>
+
+        <!--Seção ista de musicas-->
+        <section class="secaoMusicas">
+
+            <!--cabeçalho da seção musica-->
+            <header class="cabecalho">
+
+                <div class="user">
+                    <img src="./src/img/userf.ico" alt="Usuário" width="95px" height="90">
+                    <h2>Katianne</h2>
+                </div>
+
+                <div class="qtdMusicas">
+                    <p>14 songs</p>
+                </div>
+
+            </header>
+      
+            <!--lista de musicas-->
+            <div class="areaListaMusicas">
+                <!--Botão de Pause-->
+                <button id="btnPause">Pause</button>
+
+            <!--Cabecalho que representa as informaçoes das musicas-->
+
+            <div class="cabecalhoInfoMusicas">
+                <p class="primeiroItem">TITLE</p>
+                <p>ARTIST</p>
+                <p>ALBUM</p>
+            </div>
+             
+            <!--Lista de Musica-->
+            <ul class="listaMusicas">
+                <!-- MUSICA -->
+            </ul>
+
+        </div>
+
+    </section>
+
+        <!--Player-->
+        <section class="areaPlayer">
+
+            <audio src="" id="saidaAudio"></audio>
+
+            <div class="infoMusicaAtual">
+                
+                <figure class="imagemAlbum">
+                    <img id="fotoAlbum" src="./src/img/album1.JPEG" alt="Album" width="130px" height="120px">
+                    <figcaption>Legenda</figcaption>
+                </figure>
+               
+                <div class="infoAlbum">
+                    <h2 id="nomeMusica">Square One</h2>
+                    <p id="nomeAlbum">Coldplay</p>
+                </div>
+            </div>
+
+            <div class="areaPlayerControles">
+                <button id="btnControlPrev"></button>
+                <button id="btnControlPlay"></button>
+                <button id="btnControlNext"></button>
+            </div>
+
+            <div class="areaPlayerVolume">
+                <input type="range" max="1" value="1" step="0.1">
+            </div>
+
+        </section>
+
+    </main>
+
+    <script type="text/javascript" src="./src/js/script.js"></script>
+
+</body>
+</html>
