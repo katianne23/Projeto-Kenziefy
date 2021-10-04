@@ -75,7 +75,7 @@ const baseMusicas = [
     {
         'name': 'Still Have Me',
         'artist':'Demi Lovatto',
-        'path': './src/audio/ Demi Lovato - Still Have Me_160k.mp3',
+        'path': './src/audio/Demi Lovato - Still Have Me_160k.mp3',
         'album': 'Still Have Me',
     },
 
