@@ -1,7 +1,11 @@
 # Maratona de Programação 4: Kenziefy
 
-Projeto desenvolvido na parte 4 da maratona de programação da Kenzie Academy Brasil.
+# Projeto desenvolvido na parte 4 da maratona de programação da Kenzie Academy Brasil.
 Criação da interface do maior streaming de música do mundo em HTML, CSS & JavaScript.
+>Resultado:
+![img](https://github.com/katianne23/Projeto-Kenziefy/blob/master/src/img/Kenzify.png)
+[Clique aqui para ver](https://katianne23.github.io/Projeto-Kenziefy/)
+
 
 ## Ferramentas
 
@@ -15,5 +19,4 @@ Criação da interface do maior streaming de música do mundo em HTML, CSS & Jav
 ## LAYOUT
 - [Layout 1](https://www.figma.com/file/bmfeM0PomxJXgHPjjobiPp/Player_Kenzie_2021-09?node-id=33%3A61)
 
-## Acesse para ver o funcionamento da página
-- [Kenziefy](https://katianne23.github.io/Projeto-Kenziefy/)
+
